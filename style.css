@@ -1,0 +1,50 @@
+/* Colors:
+    - Orange: F06449;
+    - White: F9F7F6;
+    - Grey: DADAD9;
+    - Light Light Text: 9FAFB6;
+    - Light Text: 4F6D7A;
+    - Dark Text: 151515; 
+    - Shadow: B3B3B2; 
+*/ 
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+body{
+    background-color: grey;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav.navbar{
+    margin: 0px 0px 45px 0px;
+    padding: 0px 15px;
+    box-shadow: 0px 3px #B3B3B2;
+}
+
+.navbar-brand{
+    background-color: #F06449;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 3px #C5523C;
+}
+
+nav.navbar a.navbar-brand{
+    color: white;
+}
+
+.main{
+    background-color: white;
+    padding: 15px;
+}
+
+img{
+    float: left;
+    margin-right: 15px;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Roboto', sans-serif;
+}
