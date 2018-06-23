@@ -33,9 +33,19 @@ nav.navbar a.navbar-brand{
     color: white;
 }
 
+nav.navbar a.navbar-brand:hover{
+    color: white;
+}
+
+nav.navbar a.navbar-brand:focus{
+    color: white;
+}
+
+
 .main{
     background-color: white;
     padding: 15px;
+    box-shadow: 3px 3px #B3B3B2;
 }
 
 img{
@@ -47,4 +57,81 @@ p{
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Roboto', sans-serif;
+}
+
+form{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;  
+    color: #4F6D7A;
+}
+
+input[type=text], select, textarea{
+    font-family: monospace;
+    font-size: 14px;
+    color: #757575;
+    background-color: white;
+    padding: 2px;  
+    margin: 15px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid #F06449;  
+    outline: none;
+    resize: none;
+}
+
+input[type=text]:focus, select:focus, textarea:focus{
+    background-color: #F9F7F6;
+}
+
+input[type=submit]{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #F06449;  
+    color: #F9F7F6;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border: none;   
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+input[type=submit]:hover{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #F9F7F6;
+    background-color: #C5523C;   
+    padding: 10px 30px;  
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+div.gallery{
+    position: relative;
+    margin: 15px;
+}
+
+.gallery-thumb{
+}
+
+.image-link{
+    position: absolute;
+}
+
+.caption{
+    color: white;
+    background-color: #F06449;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+}
+
+
+
+a:hover{
+    text-decoration: none;
 }

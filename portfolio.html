@@ -1,19 +1,136 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
-        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    </head>
-    <body>
-    
-        
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Me</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </body>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Declan Morrison</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="content">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-xs-12 col-sm-8">
+                <div class="main">
+                    <h1>Portfolio</h1>
+                    <h6>Below are some projects that I have (not) worked on.</h6>
+                    <hr>
+
+                    <div class="row">
+
+                        <div class="col-sm-5">
+                    
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="https://static1.squarespace.com/static/58b89d826a4963806d1f62f4/58bfaa4a03596ee56b29e5d4/58bfaa72d482e99321ae6f4f/1488956853806/Gov-Canada-400x300.png">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="http://www.technicacommunications.com/wp-content/uploads/2016/09/schoolbus-fleet-logo-400x300.jpg">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-5">
+
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="https://d2jjzw81hqbuqv.cloudfront.net/assets/v1/static/talkable-share-400x300-b6643c0151b8a1e52b8bab4c96917d63f04d29cc3dc15c4b8810f4d4e06e67dc.jpg">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+            
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="https://blogs.iadb.org/en/files/2015/09/CaribTrends_265x199-400x300.jpg">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-sm-5">
+
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="https://www.deepcrawl.com/wp-content/uploads/2017/03/modanisacropped-400x300-c-default.jpg">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+
+                            <div class="gallery">
+                                <a href="#">
+                                    <img class="img-fluid gallery-thumb border" src="https://www.isoj.org/wp-content/uploads/2017/01/isoj-featured-image-400x300.png">
+                                    <div class="caption">Click Here</div>
+                                </a>
+                            </div>
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+    </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>
